@@ -1,4 +1,4 @@
-English | [中文(简体)](https://github.com/IgorTimofeev/MineOS/blob/master/README-zh_CN.md) | [Русский](https://github.com/IgorTimofeev/MineOS/blob/master/README-ru_RU.md)
+English
 
 ## MineOS Standalone has released!
 
@@ -33,4 +33,4 @@ After a moment, a nice system installer will be shown. You will be prompted to s
 
 ## How to create applications and work with API?
 
-[Wiki](https://github.com/IgorTimofeev/MineOS/wiki)
+[Wiki](https://github.com/iamcool12345/modos/wiki)
