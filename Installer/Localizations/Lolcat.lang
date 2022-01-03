@@ -1,16 +1,16 @@
 {
-	username = "User name",
-	password = "Password",
+	username = "Usa neim",
+	password = "Passwurd",
 	submitPassword = "Submit password",
 	passwordsArentEqual = "Passwords are not the same. Try Again.",
 	usernameInvalid = "Invalid username",
-	withoutPassword = "Don't use a password:",
-	wallpapers = "Wallpapers:",
-	screensavers = "Screensavers:",
+	withoutPassword = "nu passwurd:",
+	wallpapers = "Wallpeipas:",
+	screensavers = "Screensafers:",
 	applications = "Third party apps:",
 	languages = "Language packs:",
-	accept = "I accept:",
-	select = "Select disk for installation",
+	accept = "click to accept this bullshit!",
+	select = "Select disk fur installation",
 	erase = "Erase",
 	used = "used",
 	setup = "Setup your profile",
@@ -18,6 +18,6 @@
 	flashing = "Flashing EEPROM...",
 	creating = "Creating user profile...",
 	installing = "Installing",
-	installed = "MineOS has been installed. Enjoy!",
-	reboot = "Reboot the computer"
+	installed = "MODOS has been installed. Enjoy!",
+	reboot = "Reboot ur PC"
 }
