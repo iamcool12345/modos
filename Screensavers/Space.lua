@@ -26,7 +26,7 @@ local starAmount, colors, copyright, braille1, braille2, braille3, braille4, bra
 		[15] = 0xE1E1E1,
 		[16] = 0xF0F0F0,
 	},
-	"Copyright © https://github.com/Maxu5/",
+--"Copyright © https://github.com/Maxu5/",
 	"⠁", "⠈", "⠂", "⠐", "⠄", "⠠", "⡀", "⢀", "⠛", "⣤"
 
 -- Faster access without tables indexing
