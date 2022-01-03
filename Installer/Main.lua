@@ -296,7 +296,7 @@ local localization
 local stage = 1
 local stages = {}
 
-local usernameInput = newInput("")
+local usernameInput = newInput("hi")
 local passwordInput = newInput("", false, "•")
 local passwordSubmitInput = newInput("", false, "•")
 local usernamePasswordText = GUI.text(1, 1, 0xCC0040, "")
