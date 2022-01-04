@@ -2424,7 +2424,7 @@ function system.updateDesktop()
 
 	desktopMenu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x0, 0x696969, 0x3366CC, 0xFFFFFF))
 	
-	local MineOSContextMenu = desktopMenu:addContextMenuItem("MineOS", 0x000000)
+	local MineOSContextMenu = desktopMenu:addContextMenuItem("MODOS", 0xFF0000)
 	MineOSContextMenu:addItem(localization.aboutSystem).onTouch = function()
 		local container = GUI.addBackgroundContainer(workspace, true, true, localization.aboutSystem)
 		container.layout:removeChildren()
@@ -2435,13 +2435,9 @@ function system.updateDesktop()
 			" ",
 			"Developers:",
 			" ",
-			"Igor Timofeev, vk.com/id7799889",
-			"Gleb Trifonov, vk.com/id88323331",
-			"Yakov Verevkin, vk.com/id60991376",
-			"Alexey Smirnov, vk.com/id23897419",
-			"Timofey Shestakov, vk.com/id113499693",
+			"lamcool12345",
 			" ",
-			"UX-advisers:",
+			--[["UX-advisers:",
 			" ",
 			"Nikita Yarichev, vk.com/id65873873",
 			"Vyacheslav Sazonov, vk.com/id21321257",
@@ -2459,7 +2455,7 @@ function system.updateDesktop()
 			" ",
 			"06Games, github.com/06Games",
 			"Xenia Mazneva, vk.com/id5564402",
-			"Yana Dmitrieva, vk.com/id155326634",
+			"Yana Dmitrieva, vk.com/id155326634",]]--
 		}
 
 		local textBox = container.layout:addChild(GUI.textBox(1, 1, container.layout.width, #lines, nil, 0xB4B4B4, lines, 1, 0, 0))
