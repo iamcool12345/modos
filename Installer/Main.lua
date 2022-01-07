@@ -21,7 +21,7 @@ local repositoryURL = "https://raw.githubusercontent.com/iamcool12345/modos/mast
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
-local installerPath = "/MineOS installer/"
+local installerPath = "/MODOS installer/"
 local installerPicturesPath = installerPath .. "Installer/Pictures/"
 local OSPath = "/"
 
