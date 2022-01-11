@@ -298,7 +298,7 @@ local stages = {}
 
 local usernameInput = newInput("hi")
 local passwordInput = newInput("", false, "•")
-local passwordSubmitInput = newInput("", false, "•")
+local passwordSubmitInput = newInput("", false, "•lol")
 local usernamePasswordText = GUI.text(1, 1, 0xCC0040, "")
 local passwordSwitchAndLabel = newSwitchAndLabel(26, 0x66DB80, "", false)
 
@@ -405,7 +405,7 @@ passwordSubmitInput.onInputFinished = usernameInput.onInputFinished
 addStage(function()
 	prevButton.disabled = true
 
-	addImage(0, 1, "Languages")
+	addImage(0, 1, "Settings")
 	layout:addChild(localizationComboBox)
 
 	workspace:draw()
@@ -608,7 +608,7 @@ addStage(function()
 						-- If it's required localization file
 						localizationName == selectedLocalization or
 						-- Downloading English "just in case" for non-english localizations
-						selectedLocalization ~= "English" and localizationName == "English"
+						selectedLocalization ~= "Lolcat" and localizationName == "Lolcat"
 					then
 						table.insert(downloadList, files[key][i])
 					end
@@ -673,7 +673,7 @@ addStage(function()
 	workspace:draw()
 
 	-- Removing temporary installer directory
-	temporaryFilesystemProxy.remove(installerPath)
+	--temporaryFilesystemProxy.remove(installerPath)
 end)
 
 --------------------------------------------------------------------------------
