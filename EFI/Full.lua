@@ -268,11 +268,11 @@ while uptime() < deadline do
 		}
 
 		if internetAddress then	
-			tableInsert(utilities, 2, menuElement("UPDATE", function()
-				local handle, data, result, reason = componentProxy(internetAddress).request("https://raw.githubusercontent.com/iamcool12345/modo/master/Installer/Main.lua"), ""
+			tableInsert(utilities, 2, menuElement("update", function()
+				local handle, data, result, reason = componentProxy(internetAddress).request("https://raw.githubusercontent.com/Iamcool12345/modos/master/Installer/Main.lua"), ""
 
 				if handle then
-					status(stringsMain, "Downloading UPDATE script")
+					status(stringsMain, "Downloading update script")
 
 					while 1 do
 						result, reason = handle.read(mathHuge)	
