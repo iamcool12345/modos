@@ -13,7 +13,7 @@ local event = require("Event")
 
 --------------------------------------------------------------------------------
 
-local host = "https://github.com/iamcool12345/modos/"
+local host = "https://raw.githubusercontent.com/iamcool12345/modos/master/"
 local iconCheckReponseTime = 2
 
 local overviewIconsCount = 14
