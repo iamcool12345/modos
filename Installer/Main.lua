@@ -42,7 +42,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "SETUP")
+	centrizedText(y, 0x2D2D2D, "Setup is Loading files")
 
 	return y + 2
 end
@@ -141,7 +141,7 @@ local function deserialize(text)
 end
 
 -- Clearing screen
-GPUProxy.setBackground(0xE1E1E1)
+GPUProxy.setBackground(0x010081)
 GPUProxy.fill(1, 1, screenWidth, screenHeight, " ")
 
 -- Searching for appropriate temporary filesystem for storing libraries, images, etc
