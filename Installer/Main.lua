@@ -42,7 +42,7 @@ end
 
 local function title()
 	local y = math.floor(screenHeight / 2 - 1)
-	centrizedText(y, 0x2D2D2D, "Setup is Loading files")
+	centrizedText(y, 0xFFFFFF, "Setup is Loading files...")
 
 	return y + 2
 end
