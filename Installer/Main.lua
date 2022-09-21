@@ -235,7 +235,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x101010, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MODOS (the fork of MineOS", #cc0000)
+local installerMenu = menu:addContextMenuItem("MODOS (the fork of MineOS", 1xcc0000)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end
