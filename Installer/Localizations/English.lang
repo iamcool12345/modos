@@ -2,7 +2,7 @@
 	username = "User name",
 	password = "Password",
 	submitPassword = "Submit password",
-	passwordsArentEqual = "Passwords are not the same. Try Again.",
+	passwordsArentEqual = "Passwords doesn't match",
 	usernameInvalid = "Invalid username",
 	withoutPassword = "Don't use a password:",
 	wallpapers = "Wallpapers:",
@@ -18,6 +18,6 @@
 	flashing = "Flashing EEPROM...",
 	creating = "Creating user profile...",
 	installing = "Installing",
-	installed = "MODOS has been installed. Enjoy!",
-	reboot = "Reboot the computer",
+	installed = "MODOS has been installed",
+	reboot = "Reboot",
 }
