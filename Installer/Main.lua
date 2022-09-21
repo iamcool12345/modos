@@ -235,7 +235,7 @@ window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
 local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x101010, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MODOS", 0x2D2D2D)
+local installerMenu = menu:addContextMenuItem("MODOS (the fork of MineOS", #cc0000)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end
@@ -298,7 +298,7 @@ local stages = {}
 
 local usernameInput = newInput("")
 local passwordInput = newInput("", false, "•")
-local passwordSubmitInput = newInput("", false, "•lol")
+local passwordSubmitInput = newInput("", false, "•")
 local usernamePasswordText = GUI.text(1, 1, 0xCC0040, "")
 local passwordSwitchAndLabel = newSwitchAndLabel(26, 0x66DB80, "", false)
 
