@@ -234,8 +234,8 @@ window.localX, window.localY = math.ceil(workspace.width / 2 - window.width / 2)
 window:addChild(GUI.panel(1, 1, window.width, window.height, 0xE1E1E1))
 
 -- Top menu
-local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x101010, 0x787878, 0x3366CC, 0xE1E1E1))
-local installerMenu = menu:addContextMenuItem("MODOS", 0x1D9D9D)
+local menu = workspace:addChild(GUI.menu(1, 1, workspace.width, 0x1D9D9D, 0x787878, 0x3366CC, 0xE1E1E1))
+local installerMenu = menu:addContextMenuItem("MODOS", 0x101010)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end
