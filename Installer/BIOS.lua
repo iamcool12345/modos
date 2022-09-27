@@ -2,7 +2,7 @@
 local result, reason = ""
 
 do
-	local handle, chunk = component.proxy(component.list("internet")() or error("Required internet component is missing")).request("https://raw.githubusercontent.com/iamcool12345/modos/master/Installer/Main.lua")
+	local handle, chunk = component.proxy(component.list("internet")() or error("INSTALL AN INTERNET CARD, YOU DAM NOOB!")).request("https://raw.githubusercontent.com/iamcool12345/modos/master/Installer/Main.lua")
 
 	while true do
 		chunk = handle.read(math.huge)
